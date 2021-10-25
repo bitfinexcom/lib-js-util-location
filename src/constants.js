@@ -2,6 +2,14 @@
 
 const CANADA_PROVINCES = require('./canada-provinces.json')
 
+const CANADA_PROVINCE_FORMATS = Object.freeze([
+  'name',
+  'en_abbr',
+  'fr_abbr',
+  'int_alpha_code',
+  'std_geo_code'
+])
+
 const COUNTRY_FORMATS = Object.freeze([
   'iso-3166-alpha2',
   'iso-3166-alpha3',
@@ -27,6 +35,7 @@ const COUNTRY_ISO_3166_NUM_NAME = require('./countries-iso-3166-num-to-name.json
 
 module.exports = {
   CANADA_PROVINCES,
+  CANADA_PROVINCE_FORMATS,
   COUNTRY_FORMATS,
   COUNTRY_ISO_3166_ALPHA_2_ALPHA_3,
   COUNTRY_ISO_3166_ALPHA_2_NAME,
