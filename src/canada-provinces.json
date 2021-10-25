@@ -1,0 +1,93 @@
+[
+  {
+    "name": "NEWFOUNDLAND AND LABRADOR",
+    "en_abbr": "NL",
+    "fr_abbr": "TNL",
+    "int_alpha_code": "NL",
+    "std_geo_code": "10"
+  },
+  {
+    "name": "PRINCE EDWARD ISLAND",
+    "en_abbr": "PEI",
+    "fr_abbr": "ÎPÉ",
+    "int_alpha_code": "PE",
+    "std_geo_code": "11"
+  },
+  {
+    "name": "NOVA SCOTIA",
+    "en_abbr": "NS",
+    "fr_abbr": "NÉ",
+    "int_alpha_code": "NS",
+    "std_geo_code": "12"
+  },
+  {
+    "name": "NEW BRUNSWICK",
+    "en_abbr": "NB",
+    "fr_abbr": "NB",
+    "int_alpha_code": "NB",
+    "std_geo_code": "13"
+  },
+  {
+    "name": "QUEBEC",
+    "en_abbr": "QUE",
+    "fr_abbr": "QC",
+    "int_alpha_code": "QC",
+    "std_geo_code": "24"
+  },
+  {
+    "name": "ONTARIO",
+    "en_abbr": "ONT",
+    "fr_abbr": "ONT",
+    "int_alpha_code": "ON",
+    "std_geo_code": "35"
+  },
+  {
+    "name": "MANITOBA",
+    "en_abbr": "MAN",
+    "fr_abbr": "MAN",
+    "int_alpha_code": "MB",
+    "std_geo_code": "46"
+  },
+  {
+    "name": "SASKATCHEWAN",
+    "en_abbr": "SASK",
+    "fr_abbr": "SASK",
+    "int_alpha_code": "SK",
+    "std_geo_code": "47"
+  },
+  {
+    "name": "ALBERTA",
+    "en_abbr": "ALTA",
+    "fr_abbr": "ALB",
+    "int_alpha_code": "AB",
+    "std_geo_code": "48"
+  },
+  {
+    "name": "BRITISH COLUMBIA",
+    "en_abbr": "BC",
+    "fr_abbr": "CB",
+    "int_alpha_code": "BC",
+    "std_geo_code": "59"
+  },
+  {
+    "name": "YUKON",
+    "en_abbr": "YT",
+    "fr_abbr": "YN",
+    "int_alpha_code": "YT",
+    "std_geo_code": "60"
+  },
+  {
+    "name": "NORTHWEST TERRITORIES",
+    "en_abbr": "NWT",
+    "fr_abbr": "TNO",
+    "int_alpha_code": "NT",
+    "std_geo_code": "61"
+  },
+  {
+    "name": "NUNAVUT",
+    "en_abbr": "NVT",
+    "fr_abbr": "NT",
+    "int_alpha_code": "NU",
+    "std_geo_code": "62"
+  }
+]
