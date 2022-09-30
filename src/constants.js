@@ -7,7 +7,8 @@ const CANADA_PROVINCE_FORMATS = Object.freeze([
   'en_abbr',
   'fr_abbr',
   'int_alpha_code',
-  'std_geo_code'
+  'std_geo_code',
+  'fr_name'
 ])
 
 const COUNTRY_FORMATS = Object.freeze([

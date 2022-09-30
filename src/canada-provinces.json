@@ -4,90 +4,103 @@
     "en_abbr": "NL",
     "fr_abbr": "TNL",
     "int_alpha_code": "NL",
-    "std_geo_code": "10"
+    "std_geo_code": "10",
+    "fr_name": "TERRE-NEUVE-ET-LABRADOR"
   },
   {
     "name": "PRINCE EDWARD ISLAND",
     "en_abbr": "PEI",
     "fr_abbr": "ÎPÉ",
     "int_alpha_code": "PE",
-    "std_geo_code": "11"
+    "std_geo_code": "11",
+    "fr_name": "ÎLE-DU-PRINCE-ÉDOUARD"
   },
   {
     "name": "NOVA SCOTIA",
     "en_abbr": "NS",
     "fr_abbr": "NÉ",
     "int_alpha_code": "NS",
-    "std_geo_code": "12"
+    "std_geo_code": "12",
+    "fr_name": "NOUVELLE-ÉCOSSE"
   },
   {
     "name": "NEW BRUNSWICK",
     "en_abbr": "NB",
     "fr_abbr": "NB",
     "int_alpha_code": "NB",
-    "std_geo_code": "13"
+    "std_geo_code": "13",
+    "fr_name": "NOUVEAU-BRUNSWICK"
   },
   {
     "name": "QUEBEC",
     "en_abbr": "QUE",
     "fr_abbr": "QC",
     "int_alpha_code": "QC",
-    "std_geo_code": "24"
+    "std_geo_code": "24",
+    "fr_name": "QUÉBEC"
   },
   {
     "name": "ONTARIO",
     "en_abbr": "ONT",
     "fr_abbr": "ONT",
     "int_alpha_code": "ON",
-    "std_geo_code": "35"
+    "std_geo_code": "35",
+    "fr_name": "ONTARIO"
   },
   {
     "name": "MANITOBA",
     "en_abbr": "MAN",
     "fr_abbr": "MAN",
     "int_alpha_code": "MB",
-    "std_geo_code": "46"
+    "std_geo_code": "46",
+    "fr_name": "MANITOBA"
   },
   {
     "name": "SASKATCHEWAN",
     "en_abbr": "SASK",
     "fr_abbr": "SASK",
     "int_alpha_code": "SK",
-    "std_geo_code": "47"
+    "std_geo_code": "47",
+    "fr_name": "SASKATCHEWAN"
   },
   {
     "name": "ALBERTA",
     "en_abbr": "ALTA",
     "fr_abbr": "ALB",
     "int_alpha_code": "AB",
-    "std_geo_code": "48"
+    "std_geo_code": "48",
+    "fr_name": "ALBERTA"
   },
   {
     "name": "BRITISH COLUMBIA",
     "en_abbr": "BC",
     "fr_abbr": "CB",
     "int_alpha_code": "BC",
-    "std_geo_code": "59"
+    "std_geo_code": "59",
+    "fr_name": "COLOMBIE-BRITANNIQUE"
   },
   {
     "name": "YUKON",
     "en_abbr": "YT",
     "fr_abbr": "YN",
     "int_alpha_code": "YT",
-    "std_geo_code": "60"
+    "std_geo_code": "60",
+    "fr_name": "YUKON"
   },
   {
     "name": "NORTHWEST TERRITORIES",
     "en_abbr": "NWT",
     "fr_abbr": "TNO",
     "int_alpha_code": "NT",
-    "std_geo_code": "61"
+    "std_geo_code": "61",
+    "fr_name": "TERRITOIRES DU NORD-OUEST"
   },
   {
     "name": "NUNAVUT",
     "en_abbr": "NVT",
     "fr_abbr": "NT",
     "int_alpha_code": "NU",
-    "std_geo_code": "62"
+    "std_geo_code": "62",
+    "fr_name": "NUNAVUT"
   }
 ]
