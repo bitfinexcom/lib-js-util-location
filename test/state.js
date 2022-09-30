@@ -51,6 +51,10 @@ describe('State tests', () => {
       assert.strictEqual(getCanadaProvince('11', 'fr_abbr'), 'ÎPÉ')
     })
 
+    it('should support french name', () => {
+      assert.strictEqual(getCanadaProvince('NS', 'fr_name'), 'NOUVELLE-ÉCOSSE')
+    })
+
     it('should support international alpha code format', () => {
       assert.strictEqual(getCanadaProvince('Ontario', 'int_alpha_code'), 'ON')
     })
