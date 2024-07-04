@@ -2,6 +2,8 @@
 
 const CANADA_PROVINCES = require('./canada-provinces.json')
 
+const reverser = el => el.reverse()
+
 const CANADA_PROVINCE_FORMATS = Object.freeze([
   'name',
   'en_abbr',
@@ -22,17 +24,17 @@ const COUNTRY_ISO_3166_ALPHA_2_ALPHA_3 = require('./countries-iso-3166-alpha2-to
 const COUNTRY_ISO_3166_ALPHA_2_NAME = require('./countries-iso-3166-alpha2-to-name.json')
 const COUNTRY_ISO_3166_ALPHA_2_NUM = require('./countries-iso-3166-alpha2-to-num.json')
 
-const COUNTRY_ISO_3166_ALPHA_3_ALPHA_2 = require('./countries-iso-3166-alpha3-to-alpha2.json')
+const COUNTRY_ISO_3166_ALPHA_3_ALPHA_2 = Object.fromEntries(Object.entries(COUNTRY_ISO_3166_ALPHA_2_ALPHA_3).map(reverser))
 const COUNTRY_ISO_3166_ALPHA_3_NAME = require('./countries-iso-3166-alpha3-to-name.json')
 const COUNTRY_ISO_3166_ALPHA_3_NUM = require('./countries-iso-3166-alpha3-to-num.json')
 
-const COUNTRY_ISO_3166_NAME_ALPHA_2 = require('./countries-iso-3166-name-to-alpha2.json')
-const COUNTRY_ISO_3166_NAME_ALPHA_3 = require('./countries-iso-3166-name-to-alpha3.json')
+const COUNTRY_ISO_3166_NAME_ALPHA_2 = Object.fromEntries(Object.entries(COUNTRY_ISO_3166_ALPHA_2_NAME).map(reverser))
+const COUNTRY_ISO_3166_NAME_ALPHA_3 = Object.fromEntries(Object.entries(COUNTRY_ISO_3166_ALPHA_3_NAME).map(reverser))
 const COUNTRY_ISO_3166_NAME_NUM = require('./countries-iso-3166-name-to-num.json')
 
-const COUNTRY_ISO_3166_NUM_ALPHA_2 = require('./countries-iso-3166-num-to-alpha2.json')
-const COUNTRY_ISO_3166_NUM_ALPHA_3 = require('./countries-iso-3166-num-to-alpha3.json')
-const COUNTRY_ISO_3166_NUM_NAME = require('./countries-iso-3166-num-to-name.json')
+const COUNTRY_ISO_3166_NUM_ALPHA_2 = Object.fromEntries(Object.entries(COUNTRY_ISO_3166_ALPHA_2_NUM).map(reverser))
+const COUNTRY_ISO_3166_NUM_ALPHA_3 = Object.fromEntries(Object.entries(COUNTRY_ISO_3166_ALPHA_3_NUM).map(reverser))
+const COUNTRY_ISO_3166_NUM_NAME = Object.fromEntries(Object.entries(COUNTRY_ISO_3166_NAME_NUM).map(reverser))
 
 module.exports = {
   CANADA_PROVINCES,
