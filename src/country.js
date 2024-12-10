@@ -61,6 +61,9 @@ const getCountryCode = (input, format = 'iso-3166-alpha2') => {
   return null
 }
 
+const isEeaCountry = (countryCode) => CONSTANTS.EEA_COUNTRIES_LIST_ISO_3166_ALPHA2.includes(countryCode)
+
 module.exports = {
-  getCountryCode
+  getCountryCode,
+  isEeaCountry
 }
