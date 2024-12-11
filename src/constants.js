@@ -36,7 +36,7 @@ const COUNTRY_ISO_3166_NUM_ALPHA_2 = Object.fromEntries(Object.entries(COUNTRY_I
 const COUNTRY_ISO_3166_NUM_ALPHA_3 = Object.fromEntries(Object.entries(COUNTRY_ISO_3166_ALPHA_3_NUM).map(reverser))
 const COUNTRY_ISO_3166_NUM_NAME = Object.fromEntries(Object.entries(COUNTRY_ISO_3166_NAME_NUM).map(reverser))
 
-const EEA_COUNTRIES_LIST_ISO_3166_ALPHA2_NUM = Object.keys(require('./eea-countries-iso-3166-alpha2.json'))
+const EEA_COUNTRIES_LIST_ISO_3166_ALPHA2_NUM = require('./eea-countries-iso-3166-alpha2.json')
 
 module.exports = {
   CANADA_PROVINCES,
