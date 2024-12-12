@@ -1,6 +1,6 @@
 {
   "name": "@bitfinex/lib-js-util-location",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "utils for location inputs",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/bitfinexcom/lib-js-util-location#readme",
   "devDependencies": {
     "mocha": "^9.1.3",
+    "mocha-it-each": "^1.0.2",
     "standard": "^16.0.4"
   },
   "dependencies": {

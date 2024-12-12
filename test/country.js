@@ -4,6 +4,9 @@
 
 const assert = require('assert')
 const { getCountryCode } = require('..')
+const { isEeaCountry } = require('../src/country')
+const { itEach } = require('mocha-it-each')
+const CONSTANTS = require('../src/constants')
 
 describe('Country tests', () => {
   describe('getCountryCode tests', () => {
@@ -91,5 +94,22 @@ describe('Country tests', () => {
     it('should trim spaces', () => {
       assert.strictEqual(getCountryCode(' united Kingdom   '), 'GB')
     })
+  })
+
+  describe('isEeaCountry', () => {
+    const eeaCountryCodesList = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO']
+    const nonEeaCountries = Object.keys(CONSTANTS.COUNTRY_ISO_3166_ALPHA_2_NUM).filter(cc => !eeaCountryCodesList.includes(cc))
+
+    itEach('should return true if a country is in the european economic area',
+      eeaCountryCodesList,
+      async (countryCode) => {
+        assert.strictEqual(isEeaCountry(countryCode), true)
+      })
+
+    itEach('should return false if a country is not in the  european economic area',
+      nonEeaCountries,
+      async (countryCode) => {
+        assert.strictEqual(isEeaCountry(countryCode), false)
+      })
   })
 })
