@@ -1,6 +1,6 @@
 {
   "name": "@bitfinex/lib-js-util-location",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "utils for location inputs",
   "main": "index.js",
   "scripts": {
