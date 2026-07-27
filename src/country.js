@@ -1,6 +1,5 @@
 'use strict'
 
-const _isString = require('lodash/isString')
 const CONSTANTS = require('./constants')
 
 /**
@@ -10,7 +9,7 @@ const CONSTANTS = require('./constants')
  */
 const getCountryCode = (input, format = 'iso-3166-alpha2') => {
   if (!CONSTANTS.COUNTRY_FORMATS.includes(format)) throw new Error('ERR_CODE_FORMAT_NOT_SUPPORTED')
-  if (!_isString(input)) return null
+  if (typeof input !== 'string') return null
 
   input = input.trim().toUpperCase()
 
