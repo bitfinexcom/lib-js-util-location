@@ -1,6 +1,6 @@
 {
   "name": "@bitfinex/lib-js-util-location",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "utils for location inputs",
   "main": "index.js",
   "scripts": {
@@ -32,6 +32,6 @@
     "brittle": "^4.5.0"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=22.0"
   }
 }
